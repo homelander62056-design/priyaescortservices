@@ -74,18 +74,18 @@ export default function FooterPage() {
             POPULAR LOCATIONS
           </h3>
           <ul className="space-y-2.5 text-sm">
-            <li><Link href="/product?city=Koregaon%20Park" className="hover:text-rose-500 transition-colors">Koregaon Park Escorts</Link></li>
-            <li><Link href="/product?city=Kalyani%20Nagar" className="hover:text-rose-500 transition-colors">Kalyani Nagar Call Girls</Link></li>
-            <li><Link href="/product?city=Viman%20Nagar" className="hover:text-rose-500 transition-colors">Viman Nagar Escorts</Link></li>
-            <li><Link href="/product?city=Hinjewadi" className="hover:text-rose-500 transition-colors">Hinjewadi Escorts</Link></li>
-            <li><Link href="/product?city=Baner" className="hover:text-rose-500 transition-colors">Baner Escort Services</Link></li>
-            <li><Link href="/product?city=Wakad" className="hover:text-rose-500 transition-colors">Wakad Escorts</Link></li>
-            <li><Link href="/product?city=Kothrud" className="hover:text-rose-500 transition-colors">Kothrud Escorts</Link></li>
-            <li><Link href="/product?city=Shivajinagar" className="hover:text-rose-500 transition-colors">Shivajinagar Call Girls</Link></li>
-            <li><Link href="/product?city=Aundh" className="hover:text-rose-500 transition-colors">Aundh Escorts</Link></li>
-            <li><Link href="/product?city=Magarpatta%20City" className="hover:text-rose-500 transition-colors">Magarpatta Escorts</Link></li>
-            <li><Link href="/product?city=Kharadi" className="hover:text-rose-500 transition-colors">Kharadi Call Girls</Link></li>
-            <li><Link href="/product?city=FC%20Road" className="hover:text-rose-500 transition-colors">FC Road Escorts</Link></li>
+            <li><Link href="/product?city=College%20Road" className="hover:text-rose-500 transition-colors">College Road Escorts</Link></li>
+            <li><Link href="/product?city=Gangapur%20Road" className="hover:text-rose-500 transition-colors">Gangapur Road Call Girls</Link></li>
+            <li><Link href="/product?city=Mahatma%20Nagar" className="hover:text-rose-500 transition-colors">Mahatma Nagar Escorts</Link></li>
+            <li><Link href="/product?city=Pathardi%20Phata" className="hover:text-rose-500 transition-colors">Pathardi Phata Escorts</Link></li>
+            <li><Link href="/product?city=Indira%20Nagar" className="hover:text-rose-500 transition-colors">Indira Nagar Escort Services</Link></li>
+            <li><Link href="/product?city=Govind%20Nagar" className="hover:text-rose-500 transition-colors">Govind Nagar Escorts</Link></li>
+            <li><Link href="/product?city=CIDCO" className="hover:text-rose-500 transition-colors">CIDCO Escorts</Link></li>
+            <li><Link href="/product?city=Panchavati" className="hover:text-rose-500 transition-colors">Panchavati Call Girls</Link></li>
+            <li><Link href="/product?city=Nashik%20Road" className="hover:text-rose-500 transition-colors">Nashik Road Escorts</Link></li>
+            <li><Link href="/product?city=Satpur%20MIDC" className="hover:text-rose-500 transition-colors">Satpur Escorts</Link></li>
+            <li><Link href="/product?city=Ambad" className="hover:text-rose-500 transition-colors">Ambad Call Girls</Link></li>
+            <li><Link href="/product?city=Sharanpur%20Road" className="hover:text-rose-500 transition-colors">Sharanpur Road Escorts</Link></li>
           </ul>
         </div>
 
@@ -95,18 +95,18 @@ export default function FooterPage() {
             MORE AREAS
           </h3>
           <ul className="space-y-2.5 text-sm">
-            <li><Link href="/product?city=Nashik%20Camp" className="hover:text-rose-500 transition-colors">Camp Escorts</Link></li>
-            <li><Link href="/product?city=Senapati%20Bapat%20Road" className="hover:text-rose-500 transition-colors">SB Road Escorts</Link></li>
-            <li><Link href="/product?city=Balewadi" className="hover:text-rose-500 transition-colors">Balewadi Call Girls</Link></li>
-            <li><Link href="/product?city=Bavdhan" className="hover:text-rose-500 transition-colors">Bavdhan Escorts</Link></li>
-            <li><Link href="/product?city=Pimple%20Saudagar" className="hover:text-rose-500 transition-colors">Pimple Saudagar Escorts</Link></li>
-            <li><Link href="/product?city=Pimpri%20Chinchwad" className="hover:text-rose-500 transition-colors">PCMC Escorts</Link></li>
-            <li><Link href="/product?city=Swargate" className="hover:text-rose-500 transition-colors">Swargate Escorts</Link></li>
-            <li><Link href="/product?city=Kondhwa" className="hover:text-rose-500 transition-colors">Kondhwa Escorts</Link></li>
-            <li><Link href="/product?city=Fatima%20Nagar" className="hover:text-rose-500 transition-colors">Fatima Nagar Escorts</Link></li>
-            <li><Link href="/product?city=Yerwada" className="hover:text-rose-500 transition-colors">Yerwada Escorts</Link></li>
-            <li><Link href="/product?city=Pashan" className="hover:text-rose-500 transition-colors">Pashan Escorts</Link></li>
-            <li><Link href="/product?city=Lohegaon" className="hover:text-rose-500 transition-colors">Lohegaon Escorts</Link></li>
+            <li><Link href="/product?city=Deolali%20Camp" className="hover:text-rose-500 transition-colors">Camp Escorts</Link></li>
+            <li><Link href="/product?city=Tidke%20Colony" className="hover:text-rose-500 transition-colors">Tidke Colony Escorts</Link></li>
+            <li><Link href="/product?city=Dwarka" className="hover:text-rose-500 transition-colors">Dwarka Call Girls</Link></li>
+            <li><Link href="/product?city=Upnagar" className="hover:text-rose-500 transition-colors">Upnagar Escorts</Link></li>
+            <li><Link href="/product?city=Makhmalabad" className="hover:text-rose-500 transition-colors">Makhmalabad Escorts</Link></li>
+            <li><Link href="/product?city=Ozar" className="hover:text-rose-500 transition-colors">Ozar Escorts</Link></li>
+            <li><Link href="/product?city=Mumbai%20Naka" className="hover:text-rose-500 transition-colors">Mumbai Naka Escorts</Link></li>
+            <li><Link href="/product?city=Bhabha%20Nagar" className="hover:text-rose-500 transition-colors">Bhabha Nagar Escorts</Link></li>
+            <li><Link href="/product?city=Ashoka%20Marg" className="hover:text-rose-500 transition-colors">Ashoka Marg Escorts</Link></li>
+            <li><Link href="/product?city=Jail%20Road" className="hover:text-rose-500 transition-colors">Jail Road Escorts</Link></li>
+            <li><Link href="/product?city=Anandvalli" className="hover:text-rose-500 transition-colors">Anandvalli Escorts</Link></li>
+            <li><Link href="/product?city=Adgaon" className="hover:text-rose-500 transition-colors">Adgaon Escorts</Link></li>
           </ul>
         </div>
 
@@ -151,17 +151,17 @@ export default function FooterPage() {
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2.5 text-xs sm:text-sm text-zinc-600 font-medium max-w-5xl mx-auto">
           {[
             "Nashik Escorts",
-            "Koregaon Park Escorts",
-            "Kalyani Nagar Escorts",
-            "Viman Nagar Escorts",
-            "Hinjewadi Escorts",
-            "Baner Escorts",
-            "Wakad Escorts",
-            "Kothrud Escorts",
-            "Shivajinagar Escorts",
-            "Aundh Escorts",
-            "Magarpatta Escorts",
-            "Kharadi Escorts",
+            "College Road Escorts",
+            "Gangapur Road Escorts",
+            "Mahatma Nagar Escorts",
+            "Pathardi Phata Escorts",
+            "Indira Nagar Escorts",
+            "Govind Nagar Escorts",
+            "CIDCO Escorts",
+            "Panchavati Escorts",
+            "Nashik Road Escorts",
+            "Satpur Escorts",
+            "Ambad Escorts",
           ].map((location) => (
             <Link
               key={location}
