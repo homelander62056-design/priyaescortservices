@@ -46,7 +46,7 @@ export function getModelSpecsAndDetails(product: ProductItem): ModelDetailSpec &
 
   // Paragraph 1: Introduction & Locality Specialization
   bioParagraphs.push(
-    `Welcome to the verified profile of ${product.name}, a distinguished ${product.age}-year-old independent companion operating in ${subLoc}, Pune. Known for her natural charm, sophistication, and courteous demeanor, ${product.name} offers premium companionship for gentlemen seeking relaxation, fine dinner dates, executive social gatherings, and private luxury hotel visits.`
+    `Welcome to the verified profile of ${product.name}, a distinguished ${product.age}-year-old independent companion operating in ${subLoc}, Nashik. Known for her natural charm, sophistication, and courteous demeanor, ${product.name} offers premium companionship for gentlemen seeking relaxation, fine dinner dates, executive social gatherings, and private luxury hotel visits.`
   );
 
   // Paragraph 2: Product Description Integration
@@ -54,7 +54,7 @@ export function getModelSpecsAndDetails(product: ProductItem): ModelDetailSpec &
     bioParagraphs.push(product.description);
   } else {
     bioParagraphs.push(
-      `${product.name} is celebrated for her welcoming personality, neat presentation, and dedicated hospitality. Whether you are visiting Pune on a business trip or seeking a relaxing evening in ${subLoc}, she ensures your experience is comfortable, discrete, and memorable.`
+      `${product.name} is celebrated for her welcoming personality, neat presentation, and dedicated hospitality. Whether you are visiting Nashik on a business trip or seeking a relaxing evening in ${subLoc}, she ensures your experience is comfortable, discrete, and memorable.`
     );
   }
 
@@ -63,7 +63,7 @@ export function getModelSpecsAndDetails(product: ProductItem): ModelDetailSpec &
     bioParagraphs.push(product.aboutMe);
   } else {
     bioParagraphs.push(
-      `Living and operating near ${subLoc}, ${product.name} is well-acquainted with top luxury hotels, fine dining destinations, and peaceful retreats in Pune. She takes immense pride in maintaining strict privacy, clear communication, and dependable punctuality for every appointment.`
+      `Living and operating near ${subLoc}, ${product.name} is well-acquainted with top luxury hotels, fine dining destinations, and peaceful retreats in Nashik. She takes immense pride in maintaining strict privacy, clear communication, and dependable punctuality for every appointment.`
     );
   }
 
@@ -79,8 +79,8 @@ export function getModelSpecsAndDetails(product: ProductItem): ModelDetailSpec &
       answer: `You can directly reach out to ${product.name} via WhatsApp or phone call at ${product.phone}. Simply share your preferred date, time, duration, and hotel or residential location in ${subLoc} to confirm availability.`,
     },
     {
-      question: `What locations and hotels does ${product.name} cover in Pune?`,
-      answer: `${product.name} primarily provides incall and outcall services in ${subLoc} and surrounding Pune areas including 4-star and 5-star hotels, luxury resorts, and verified private residences.`,
+      question: `What locations and hotels does ${product.name} cover in Nashik?`,
+      answer: `${product.name} primarily provides incall and outcall services in ${subLoc} and surrounding Nashik areas including 4-star and 5-star hotels, luxury resorts, and verified private residences.`,
     },
     {
       question: `Is privacy and discretion guaranteed when meeting ${product.name}?`,
@@ -120,7 +120,7 @@ export function getModelSpecsAndDetails(product: ProductItem): ModelDetailSpec &
     bioParagraphs,
     faqs,
     highlights,
-    locationDetail: `${subLoc}, Pune`,
+    locationDetail: `${subLoc}, Nashik`,
     displayImage,
   };
 }

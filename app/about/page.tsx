@@ -5,23 +5,23 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
 
 export const metadata: Metadata = {
-  title: "About Us - Elite Companion Network in Pune",
-  description: "Learn about Priya Escort Service, Pune's most distinguished companion network offering 100% verified profiles and discreet executive service.",
+  title: "About Us - Elite Companion Network in Nashik",
+  description: "Learn about Priya Escort Service, Nashik's most distinguished companion network offering 100% verified profiles and discreet executive service.",
   alternates: {
     canonical: `${siteUrl}/about`,
   },
   openGraph: {
     title: "About Us | Priya Escort Services",
-    description: "Learn about Priya Escort Service, Pune's most distinguished companion network offering 100% verified profiles.",
+    description: "Learn about Priya Escort Service, Nashik's most distinguished companion network offering 100% verified profiles.",
     url: `${siteUrl}/about`,
-    siteName: "cal girl pune",
+    siteName: "cal girl nashik",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "About Us | Priya Escort Services",
-    description: "Pune's premier platform for elite companionship and discreet executive entertainment.",
+    description: "Nashik's premier platform for elite companionship and discreet executive entertainment.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
             About <span className="text-[#ff2d55]">Priya Escort</span>
           </h1>
           <p className="text-sm sm:text-base text-zinc-500 max-w-xl mx-auto pt-1 font-medium">
-            Pune&apos;s premier platform for elite companionship, discreet engagements, and executive entertainment.
+            Nashik&apos;s premier platform for elite companionship, discreet engagements, and executive entertainment.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function AboutPage() {
               Welcome to Priya Escort Service
             </h2>
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed font-normal">
-              Priya Escort Service stands as Pune&apos;s most distinguished companion network, crafted exclusively for gentlemen seeking refined, charming, and intelligent companions. Established with a commitment to elevate industry standards, we provide seamless access to verified companions for corporate dinners, luxury travel, and private leisure across Pune and PCMC.
+              Priya Escort Service stands as Nashik&apos;s most distinguished companion network, crafted exclusively for gentlemen seeking refined, charming, and intelligent companions. Established with a commitment to elevate industry standards, we provide seamless access to verified companions for corporate dinners, luxury travel, and private leisure across Nashik and PCMC.
             </p>
           </section>
 
@@ -114,10 +114,10 @@ export default function AboutPage() {
           {/* Our Service Areas */}
           <section className="space-y-3 border-b border-zinc-100 pb-6">
             <h2 className="text-xl sm:text-2xl font-extrabold text-[#ff2d55]">
-              Pune Service Locations
+              Nashik Service Locations
             </h2>
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed font-normal">
-              Our agency offers comprehensive coverage throughout all prime sectors in Pune, including{" "}
+              Our agency offers comprehensive coverage throughout all prime sectors in Nashik, including{" "}
               <Link href="/product?city=Koregaon%20Park" className="text-[#ff2d55] font-semibold hover:underline">
                 Koregaon Park
               </Link>,{" "}
@@ -142,7 +142,7 @@ export default function AboutPage() {
               Get in Touch
             </h2>
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed font-normal">
-              Elevate your companionship experience in Pune today.{" "}
+              Elevate your companionship experience in Nashik today.{" "}
               <Link href="/contact" className="text-[#ff2d55] font-bold hover:underline">
                 Connect directly
               </Link>{" "}

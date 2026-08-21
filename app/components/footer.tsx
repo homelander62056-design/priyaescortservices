@@ -26,7 +26,7 @@ export default function FooterPage() {
 
           {/* Description */}
           <p className="text-sm text-zinc-500 leading-relaxed font-normal">
-            Pune&apos;s premier escort service. We connect discerning gentlemen with elegant, sophisticated companions for memorable experiences.
+            Nashik&apos;s premier escort service. We connect discerning gentlemen with elegant, sophisticated companions for memorable experiences.
           </p>
 
           {/* Icon Buttons */}
@@ -95,7 +95,7 @@ export default function FooterPage() {
             MORE AREAS
           </h3>
           <ul className="space-y-2.5 text-sm">
-            <li><Link href="/product?city=Pune%20Camp" className="hover:text-rose-500 transition-colors">Camp Escorts</Link></li>
+            <li><Link href="/product?city=Nashik%20Camp" className="hover:text-rose-500 transition-colors">Camp Escorts</Link></li>
             <li><Link href="/product?city=Senapati%20Bapat%20Road" className="hover:text-rose-500 transition-colors">SB Road Escorts</Link></li>
             <li><Link href="/product?city=Balewadi" className="hover:text-rose-500 transition-colors">Balewadi Call Girls</Link></li>
             <li><Link href="/product?city=Bavdhan" className="hover:text-rose-500 transition-colors">Bavdhan Escorts</Link></li>
@@ -143,14 +143,14 @@ export default function FooterPage() {
 
       </div>
 
-      {/* Our Premium Partners / Pune Locations Section */}
+      {/* Our Premium Partners / Nashik Locations Section */}
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-200 text-center space-y-4">
         <h3 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[#ff2d55]">
           OUR PREMIUM PARTNERS
         </h3>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2.5 text-xs sm:text-sm text-zinc-600 font-medium max-w-5xl mx-auto">
           {[
-            "Pune Escorts",
+            "Nashik Escorts",
             "Koregaon Park Escorts",
             "Kalyani Nagar Escorts",
             "Viman Nagar Escorts",

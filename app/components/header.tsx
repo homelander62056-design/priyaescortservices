@@ -17,7 +17,7 @@ const locationsList = [
   "Magarpatta City",
   "Kharadi",
   "FC Road",
-  "Pune Camp",
+  "Nashik Camp",
   "Senapati Bapat Road",
   "Balewadi",
   "Pimple Saudagar",

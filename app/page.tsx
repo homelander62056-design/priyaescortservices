@@ -30,7 +30,7 @@ export default function Page() {
                 {/* Pill Badge */}
                 <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold tracking-wider text-rose-400 bg-rose-950/50 border border-rose-500/30 uppercase">
                   <span className="w-4 h-0.5 bg-rose-500 rounded-full"></span>
-                  <span>Pune&apos;s Finest</span>
+                  <span>Nashik&apos;s Finest</span>
                 </div>
 
                 {/* Main Title */}
@@ -45,7 +45,7 @@ export default function Page() {
 
                 {/* Description Paragraph */}
                 <p className="text-base sm:text-lg text-zinc-300 max-w-xl leading-relaxed">
-                  Elevated experiences for unforgettable nights. Sophisticated, discreet, and designed exclusively for Pune.                </p>
+                  Elevated experiences for unforgettable nights. Sophisticated, discreet, and designed exclusively for Nashik.                </p>
 
                 {/* Action Buttons */}
                 <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -95,7 +95,7 @@ export default function Page() {
                 <div className="relative w-full max-w-md h-[400px] sm:h-[480px] rounded-3xl overflow-hidden border border-pink-500/20 shadow-2xl shadow-purple-950/80 bg-zinc-900 group">
                   <img
                     src="/images/firstpage.avif"
-                    alt="Featured Pune Companion"
+                    alt="Featured Nashik Companion"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     onError={(e) => {
                       e.currentTarget.src = "/images/image1.avif";
@@ -165,7 +165,7 @@ export default function Page() {
               <span className="text-[#ff2d55]">Models</span>
             </h2>
             <p className="text-sm text-zinc-500 pt-1">
-              Handpicked companions in Pune who define elegance and sophistication
+              Handpicked companions in Nashik who define elegance and sophistication
             </p>
           </div>
 
@@ -191,7 +191,7 @@ export default function Page() {
                 Locations We <span className="text-[#ff2d55]">Serve</span>
               </h2>
               <p className="text-sm sm:text-base text-zinc-500 max-w-xl mx-auto pt-0.5 font-medium">
-                Premium escort services across 60+ locations in Pune and PCMC
+                Premium escort services across 60+ locations in Nashik and PCMC
               </p>
             </div>
 
@@ -210,7 +210,7 @@ export default function Page() {
                 "Magarpatta City",
                 "Kharadi",
                 "FC Road",
-                "Pune Camp",
+                "Nashik Camp",
                 "Senapati Bapat Road",
                 "Balewadi",
                 "Bavdhan",
@@ -243,38 +243,38 @@ export default function Page() {
           {/* Category Quick Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
-            {/* Card 2: Call Girls Pune */}
+            {/* Card 2: Call Girls Nashik */}
             <Link href="/product" className="block">
               <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
                 <h3 className="text-xl font-black text-rose-500 flex items-center justify-center gap-2">
-                  <span className="text-xl">👄</span> Call Girls Pune
+                  <span className="text-xl">👄</span> Call Girls Nashik
                 </h3>
               </div>
             </Link>
 
-            {/* Card 3: Massages Pune */}
+            {/* Card 3: Massages Nashik */}
             <Link href="/product" className="block">
               <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
                 <h3 className="text-xl font-black text-rose-500 flex items-center justify-center gap-2">
-                  <span className="text-xl">🧘</span> Massages Pune
+                  <span className="text-xl">🧘</span> Massages Nashik
                 </h3>
               </div>
             </Link>
 
-            {/* Card 4: Male Escorts Pune */}
+            {/* Card 4: Male Escorts Nashik */}
             <Link href="/product" className="block">
               <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
                 <h3 className="text-rose-500 font-black text-xl flex items-center justify-center gap-2">
-                  <span className="text-xl">🥸</span> Male Escorts Pune
+                  <span className="text-xl">🥸</span> Male Escorts Nashik
                 </h3>
               </div>
             </Link>
 
-            {/* Card 5: Transsexual Pune */}
+            {/* Card 5: Transsexual Nashik */}
             <Link href="/product" className="block">
               <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
                 <h3 className="text-rose-500 font-black text-xl flex items-center justify-center gap-2">
-                  <span>Transsexual Pune</span>
+                  <span>Transsexual Nashik</span>
                 </h3>
               </div>
             </Link>

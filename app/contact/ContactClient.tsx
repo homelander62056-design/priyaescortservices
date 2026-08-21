@@ -21,7 +21,7 @@ export default function ContactClient() {
             We&apos;re available 24/7 to assist you with bookings and inquiries
           </p>
           <p className="text-sm sm:text-base text-zinc-500 max-w-2xl mx-auto pt-1 leading-relaxed">
-            Whether you are looking for premier escort companionship in Pune or have questions regarding our verified profiles, pricing, or service areas, our dedicated support team is here to assist you. Contact us directly via WhatsApp or Phone for instant, 100% discreet and confidential assistance.
+            Whether you are looking for premier escort companionship in Nashik or have questions regarding our verified profiles, pricing, or service areas, our dedicated support team is here to assist you. Contact us directly via WhatsApp or Phone for instant, 100% discreet and confidential assistance.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function ContactClient() {
             onClick={() =>
               trackWhatsAppClick({
                 name: "Contact Page Inquiry",
-                city: "Pune",
+                city: "Nashik",
                 whatsappNumber: "919905752614",
               })
             }
@@ -83,7 +83,7 @@ export default function ContactClient() {
           </div>
           <div className="flex items-center justify-center gap-2 bg-white p-3.5 rounded-xl border border-rose-100/80 shadow-2xs text-center">
             <span className="text-rose-500 font-bold">•</span>
-            <span><strong>24/7 Availability:</strong> Full coverage across all Pune areas.</span>
+            <span><strong>24/7 Availability:</strong> Full coverage across all Nashik areas.</span>
           </div>
           <div className="flex items-center justify-center gap-2 bg-white p-3.5 rounded-xl border border-rose-100/80 shadow-2xs text-center">
             <span className="text-rose-500 font-bold">•</span>
@@ -106,7 +106,7 @@ export default function ContactClient() {
               <strong className="font-bold text-zinc-800">Confidential Booking:</strong> Every inquiry is kept strictly confidential. Your personal details and booking conversations are protected with end-to-end privacy.
             </p>
             <p>
-              <strong className="font-bold text-zinc-800">Pune Local Coverage:</strong> We serve clients across all prime areas in Pune including Koregaon Park, Kalyani Nagar, Viman Nagar, Hinjewadi, Baner, Wakad, Kothrud, and Shivajinagar.
+              <strong className="font-bold text-zinc-800">Nashik Local Coverage:</strong> We serve clients across all prime areas in Nashik including Koregaon Park, Kalyani Nagar, Viman Nagar, Hinjewadi, Baner, Wakad, Kothrud, and Shivajinagar.
             </p>
           </div>
         </div>

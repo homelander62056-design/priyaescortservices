@@ -35,7 +35,7 @@ function ProductContent() {
     setVisibleCount(BATCH_SIZE);
   }, [searchTerm, selectedCity]);
 
-  // List of all 30 Pune locations
+  // List of all 30 Nashik locations
   const citiesList = [
     "All",
     "Koregaon Park",
@@ -50,7 +50,7 @@ function ProductContent() {
     "Magarpatta City",
     "Kharadi",
     "FC Road",
-    "Pune Camp",
+    "Nashik Camp",
     "Senapati Bapat Road",
     "Balewadi",
     "Bavdhan",
@@ -114,10 +114,10 @@ function ProductContent() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-[#ff2d55] tracking-tight">
-              Listings in Pune
+              Listings in Nashik
             </h1>
             <p className="text-xs sm:text-sm text-zinc-500 mt-0.5">
-              Showing verified companion profiles in Pune. Click profile to view full details.
+              Showing verified companion profiles in Nashik. Click profile to view full details.
             </p>
           </div>
         </div>
@@ -127,7 +127,7 @@ function ProductContent() {
           <div className="md:col-span-2 relative">
             <input
               type="text"
-              placeholder="Search models, city, or profile in Pune..."
+              placeholder="Search models, city, or profile in Nashik..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-10 pr-4 py-2.5 bg-zinc-50 border border-zinc-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#ff2d55] text-zinc-900 placeholder-zinc-400"
@@ -191,7 +191,7 @@ function ProductContent() {
             No listings found for &quot;{selectedCity}&quot;
           </h3>
           <p className="text-sm text-zinc-500">
-            Try selecting another area in Pune or reset search filter.
+            Try selecting another area in Nashik or reset search filter.
           </p>
           <button
             onClick={() => {
