@@ -11,7 +11,7 @@ export function createWhatsAppLink(name?: string, city?: string, whatsappNumber?
   const number = (whatsappNumber || "919905752614").replace(/[^+\d]/g, "");
   const profileName = name || "Companion";
   const profileCity = city ? ` in ${city}` : "";
-  const text = encodeURIComponent(`Hi, I am interested in booking ${profileName}${profileCity} via priyaescortservices.com`);
+  const text = encodeURIComponent(`Hi, I am interested in booking ${profileName}${profileCity} via riyaescortservices.com`);
   return `https://wa.me/${number}?text=${text}`;
 }
 

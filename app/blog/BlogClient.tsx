@@ -12,23 +12,23 @@ export default function BlogClient() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans">
+    <div className="min-h-screen flex flex-col justify-between bg-white text-gray-700 font-sans">
       <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto space-y-8 w-full flex-1">
         
         {/* Header */}
-        <div className="border-b border-zinc-200 dark:border-zinc-800 pb-8">
+        <div className="border-b border-gray-200 pb-8">
           <div className="flex items-center justify-between flex-wrap gap-4">
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-indigo-400">
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               Blog
             </h1>
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300">
-              Last Updated: 17 sep 2026
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
+              Last Updated: 25 Aug 2026
             </span>
           </div>
         </div>
 
         {/* Content Container */}
-        <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 sm:p-10 shadow-sm space-y-8 leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <div className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-10 shadow-sm space-y-8 leading-relaxed text-gray-700">
 
           {/* Overview */}
           <section className="space-y-4">
@@ -45,7 +45,7 @@ export default function BlogClient() {
 
           {/* What You Can Expect */}
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 border-l-4 border-blue-600 dark:border-blue-400 pl-3">
+            <h2 className="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-3">
               What You Can Expect From Our Blog
             </h2>
             <p>Our Blog features content across various categories, including:</p>
@@ -68,7 +68,7 @@ export default function BlogClient() {
 
           {/* Our Commitment to Quality */}
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 border-l-4 border-blue-600 dark:border-blue-400 pl-3">
+            <h2 className="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-3">
               Our Commitment to Quality
             </h2>
             <p>
@@ -81,7 +81,7 @@ export default function BlogClient() {
 
           {/* Why Read Our Blog? */}
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 border-l-4 border-blue-600 dark:border-blue-400 pl-3">
+            <h2 className="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-3">
               Why Read Our Blog?
             </h2>
             <p>Reading our Blog helps you:</p>
@@ -101,7 +101,7 @@ export default function BlogClient() {
 
           {/* Community & Feedback */}
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 border-l-4 border-blue-600 dark:border-blue-400 pl-3">
+            <h2 className="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-3">
               Community and Feedback
             </h2>
             <p>
@@ -110,26 +110,26 @@ export default function BlogClient() {
           </section>
 
           {/* Contact Us */}
-          <section className="space-y-3 border-t border-zinc-200 dark:border-zinc-800 pt-6">
-            <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+          <section className="space-y-3 border-t border-gray-200 pt-6">
+            <h2 className="text-xl font-bold text-gray-900">
               Contact Us
             </h2>
             <p>
               If you have any questions, suggestions, or feedback regarding our Blog or any article published on our Website, please contact us:
             </p>
-            <div className="p-4 bg-zinc-50 dark:bg-zinc-800/50 rounded-xl border border-zinc-200 dark:border-zinc-700/60 text-sm flex items-center justify-between">
+            <div className="p-4 bg-gray-50 rounded-xl border border-gray-200 text-sm flex items-center justify-between">
               <div>
-                <p><strong>Email:</strong> <a href="mailto:priyaasingh569@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">priyaasingh569@gmail.com</a></p>
-                <p className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mt-1">Last Updated: 31 July 2026</p>
+                <p><strong>Email:</strong> <a href="mailto:riyaasingh569@gmail.com" className="text-blue-600 hover:underline">riyaasingh569@gmail.com</a></p>
+                <p className="text-xs font-semibold text-gray-500 mt-1">Last Updated: 25 Aug 2026</p>
               </div>
               <button
-                onClick={() => handleCopy("priyaasingh569@gmail.com")}
-                className="text-xs px-3 py-1.5 bg-zinc-200 dark:bg-zinc-700 rounded-md text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-600 transition-colors cursor-pointer"
+                onClick={() => handleCopy("riyaasingh569@gmail.com")}
+                className="text-xs px-3 py-1.5 bg-gray-200 rounded-md text-gray-700 hover:bg-gray-300 transition-colors cursor-pointer"
               >
-                {copied === "priyaasingh569@gmail.com" ? "Copied!" : "Copy Email"}
+                {copied === "riyaasingh569@gmail.com" ? "Copied!" : "Copy Email"}
               </button>
             </div>
-            <p className="text-sm text-zinc-500 dark:text-zinc-400 pt-2">
+            <p className="text-sm text-gray-500 pt-2">
               We appreciate your continued support and thank you for being a part of our community.
             </p>
           </section>

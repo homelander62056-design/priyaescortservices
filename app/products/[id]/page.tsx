@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!product) {
     return {
-      title: "Profile Not Found | Priya Escort Services",
+      title: "Profile Not Found | Riya Escort Services",
       robots: {
         index: false,
         follow: false,
@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
   const canonicalUrl = `${siteUrl}/product/${product.id}`;
   const details = getModelSpecsAndDetails(product);
 
   return {
-    title: `${product.name} - Escort & Companion in ${product.city} | Priya Escort Services`,
+    title: `${product.name} - Escort & Companion in ${product.city} | Riya Escort Services`,
     description: `${product.name} (${product.age} yrs), verified independent companion in ${details.locationDetail}. Direct contact: ${product.phone}. Available 24/7 for luxury hotel outcalls & dinner dates.`,
     alternates: {
       canonical: canonicalUrl,
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${product.name} - ${product.title}`,
       description: `${product.name} (${product.age} yrs), verified companion in ${product.city}. Direct booking via WhatsApp or phone.`,
       url: canonicalUrl,
-      siteName: "Priya Escort Services",
+      siteName: "Riya Escort Services",
       locale: "en_IN",
       type: "profile",
       images: [
@@ -83,7 +83,7 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
   const details = getModelSpecsAndDetails(product);
   const canonicalUrl = `${siteUrl}/product/${product.id}`;
   const imageUrl = details.displayImage.startsWith("http") ? details.displayImage : `${siteUrl}${details.displayImage}`;

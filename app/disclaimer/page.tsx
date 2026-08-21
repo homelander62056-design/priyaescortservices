@@ -1,17 +1,17 @@
 import React from "react";
 import { Metadata } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Disclaimer & Legal Notice",
-  description: "Important legal disclaimer and 18+ adult age compliance notice for Priya Escort Services in Hyderabad.",
+  description: "Important legal disclaimer and 18+ adult age compliance notice for Riya Escort Services in Hyderabad.",
   alternates: {
     canonical: `${siteUrl}/disclaimer`,
   },
   openGraph: {
-    title: "Disclaimer | Priya Escort Services",
-    description: "Important legal disclaimer and 18+ adult age compliance notice for Priya Escort Services in Hyderabad.",
+    title: "Disclaimer | Riya Escort Services",
+    description: "Important legal disclaimer and 18+ adult age compliance notice for Riya Escort Services in Hyderabad.",
     url: `${siteUrl}/disclaimer`,
     siteName: "cal girl hyderabad",
     locale: "en_IN",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Disclaimer | Priya Escort Services",
+    title: "Disclaimer | Riya Escort Services",
     description: "Important legal disclaimer and 18+ compliance guidelines.",
   },
 };
@@ -71,7 +71,7 @@ export default function DisclaimerPage() {
               Independent Directory &amp; Service Scope
             </h2>
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
-              Priya Escort Service operates strictly as an independent directory connecting clients with self-employed companions for social meetings, dinner dates, and private companionship. We explicitly do not promote, organize, or facilitate any illegal activities. All engagements occur independently between consenting adults.
+              Riya Escort Service operates strictly as an independent directory connecting clients with self-employed companions for social meetings, dinner dates, and private companionship. We explicitly do not promote, organize, or facilitate any illegal activities. All engagements occur independently between consenting adults.
             </p>
           </section>
 
@@ -101,7 +101,7 @@ export default function DisclaimerPage() {
               Limitation of Liability
             </h2>
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
-              Under no circumstances shall Priya Escort Service be held liable for direct, indirect, or incidental damages arising from your reliance on information or services accessed through this platform. Users are encouraged to exercise sound personal judgment.
+              Under no circumstances shall Riya Escort Service be held liable for direct, indirect, or incidental damages arising from your reliance on information or services accessed through this platform. Users are encouraged to exercise sound personal judgment.
             </p>
           </section>
 

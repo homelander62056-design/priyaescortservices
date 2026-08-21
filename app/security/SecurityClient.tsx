@@ -94,16 +94,16 @@ export default function SecurityClient() {
               </div>
               <div className="p-3 bg-white dark:bg-zinc-900 rounded-lg flex items-center justify-between">
                 <a
-                  href="mailto:priyaasingh569@gmail.com"
+                  href="mailto:riyaasingh569@gmail.com"
                   className="text-sm font-medium text-rose-600 dark:text-rose-400 hover:underline truncate"
                 >
-                  priyaasingh569@gmail.com
+                  riyaasingh569@gmail.com
                 </a>
                 <button
-                  onClick={() => handleCopy("priyaasingh569@gmail.com")}
+                  onClick={() => handleCopy("riyaasingh569@gmail.com")}
                   className="text-xs px-2 py-1 bg-zinc-200 dark:bg-zinc-700 rounded text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-600 transition-colors cursor-pointer"
                 >
-                  {copied === "priyaasingh569@gmail.com" ? "Copied!" : "Copy"}
+                  {copied === "riyaasingh569@gmail.com" ? "Copied!" : "Copy"}
                 </button>
               </div>
             </div>

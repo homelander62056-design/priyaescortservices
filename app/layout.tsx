@@ -20,14 +20,14 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: {
     default: "cal girl nashik | Professional Escort Services in Nashik",
     template: "%s | cal girl nashik",
   },
-  description: "Priya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
+  description: "Riya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
   icons: {
     icon: [{ url: "/icon.png", type: "image/png" }],
     shortcut: ["/icon.png"],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "cal girl nashik | Professional Escort Services in Nashik",
-    description: "Priya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
+    description: "Riya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
     url: siteUrl,
     siteName: "cal girl nashik",
     locale: "en_IN",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "cal girl nashik | Professional Escort Services in Nashik",
-    description: "Priya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
+    description: "Riya Escort Services provides professional and discreet escort services in Nashik. Explore our services and contact us for more information.",
   },
   robots: {
     index: true,

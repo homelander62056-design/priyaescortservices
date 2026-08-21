@@ -30,7 +30,7 @@ export default function ContactClient() {
           
           {/* WhatsApp Card */}
           <a
-            href="https://wa.me/919905752614?text=Hi%2C%20I%20am%20interested%20in%20booking%20your%20service%20via%20priyaescortservices.com"
+            href="https://wa.me/919905752614?text=Hi%2C%20I%20am%20interested%20in%20booking%20your%20service%20via%20riyaescortservices.com"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() =>
@@ -95,7 +95,7 @@ export default function ContactClient() {
         {/* Additional Defined Contact Information Card */}
         <div className="bg-gray-50 border border-pink-200/80 rounded-3xl p-8 sm:p-10 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-bold text-[#ff2d55]">
-            Why Contact Priya Escort Service?
+            Why Contact Riya Escort Service?
           </h2>
 
           <div className="space-y-4 text-sm sm:text-base text-zinc-600 leading-relaxed">

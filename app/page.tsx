@@ -109,7 +109,7 @@ export default function Page() {
                   <div className="absolute bottom-4 left-4 px-4 py-2 bg-black/70 backdrop-blur-md rounded-2xl border border-pink-500/30 flex items-center gap-2.5 shadow-lg">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                     <span className="text-xs font-bold text-amber-300 tracking-wider uppercase">Featured:</span>
-                    <span className="text-sm font-extrabold text-pink-400">Priya Kulkarni</span>
+                    <span className="text-sm font-extrabold text-pink-400">Riya kumari</span>
                   </div>
 
                 </div>

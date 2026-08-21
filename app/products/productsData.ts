@@ -62,7 +62,7 @@ export const initialProductsData: ProductItem[] = [
   // 3. Mahatma Nagar
   {
     id: 3,
-    name: "Priya Kulkarni",
+    name: "Riya Kulkarni",
     city: "Nashik / Mahatma Nagar",
     title: "Premium College Escort Service in Mahatma Nagar 🔥",
     description: "Sophisticated and educated companion available in Mahatma Nagar near City Centre Mall. 100% genuine photos, sweet nature and fully confidential service guaranteed.",
@@ -96,7 +96,7 @@ export const initialProductsData: ProductItem[] = [
   // 5. Indira Nagar
   {
     id: 5,
-    name: "Priya Sen",
+    name: "Riya Sen",
     city: "Nashik / Indira Nagar",
     title: "Celebrity & Model Escort Service in Indira Nagar 💃",
     description: "High class model companion in Indira Nagar. Perfect for business travelers seeking premium companion experience with full privacy on Indira Nagar.",

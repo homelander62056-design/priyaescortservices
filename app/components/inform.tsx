@@ -6,7 +6,7 @@ interface InformProps {
 }
 
 export default function Inform({
-  whatsappUrl = "https://wa.me/919905752614?text=Hi%2C%20I%20am%20interested%20in%20booking%20your%20service%20via%20priyaescortservices.com",
+  whatsappUrl = "https://wa.me/919905752614?text=Hi%2C%20I%20am%20interested%20in%20booking%20your%20service%20via%20riyaescortservices.com",
   phoneUrl = "tel:+919905752614",
 }: InformProps) {
   return (

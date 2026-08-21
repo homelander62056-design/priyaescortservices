@@ -2,17 +2,17 @@ import React from "react";
 import Link from "next/link";
 import { Metadata } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - Data Protection & Confidentiality",
-  description: "Learn how Priya Escort Service safeguards your personal information, communication privacy, and browsing security.",
+  description: "Learn how Riya Escort Service safeguards your personal information, communication privacy, and browsing security.",
   alternates: {
     canonical: `${siteUrl}/privacyPolicy`,
   },
   openGraph: {
-    title: "Privacy Policy | Priya Escort Services",
-    description: "Learn how Priya Escort Service safeguards your personal information, communication privacy, and browsing security.",
+    title: "Privacy Policy | Riya Escort Services",
+    description: "Learn how Riya Escort Service safeguards your personal information, communication privacy, and browsing security.",
     url: `${siteUrl}/privacyPolicy`,
     siteName: "cal girl hyderabad",
     locale: "en_IN",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Privacy Policy | Priya Escort Services",
-    description: "Data protection and privacy guidelines at Priya Escort Service.",
+    title: "Privacy Policy | Riya Escort Services",
+    description: "Data protection and privacy guidelines at Riya Escort Service.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
             Privacy <span className="text-[#ff2d55]">Policy</span>
           </h1>
           <p className="text-sm sm:text-base text-zinc-500 max-w-xl mx-auto pt-1 font-medium">
-            Learn how Priya Escort Service safeguards your personal information, communication privacy, and digital browsing security.
+            Learn how Riya Escort Service safeguards your personal information, communication privacy, and digital browsing security.
           </p>
         </div>
 

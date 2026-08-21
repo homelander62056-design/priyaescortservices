@@ -46,11 +46,11 @@ export default function HeaderPage() {
       <Link href="/" className="flex items-center gap-2 group">
         <img
           src="/images/logo.png"
-          alt="Priya Escort Logo"
+          alt="Riya Escort Logo"
           className="w-10 h-10 object-contain flex-shrink-0"
         />
         <div className="flex flex-col leading-none">
-          <span className="text-xl font-extrabold italic text-rose-500 tracking-tight">Priya Escort Service</span>
+          <span className="text-xl font-extrabold italic text-rose-500 tracking-tight">Riya Escort Service</span>
         </div>
       </Link>
 
@@ -59,7 +59,7 @@ export default function HeaderPage() {
         <Link href="/" className="hover:text-rose-500 transition-colors">
           Home
         </Link>
-        <Link href="/product" className="hover:text-rose-500 transition-colors">
+        <Link href="/products" className="hover:text-rose-500 transition-colors">
           Models
         </Link>
 
@@ -144,7 +144,7 @@ export default function HeaderPage() {
         <div className="absolute top-full left-0 w-full bg-gray-50 border-b border-zinc-200 p-5 space-y-3.5 md:hidden shadow-lg flex flex-col text-sm font-medium text-zinc-700 max-h-[80vh] overflow-y-auto">
           <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-rose-500 py-1">Home</Link>
           <Link href="/product" onClick={() => setMenuOpen(false)} className="hover:text-rose-500 py-1">Models</Link>
-          
+
           {/* Mobile Locations Expandable */}
           <div>
             <button

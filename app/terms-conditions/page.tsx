@@ -1,17 +1,17 @@
 import React from "react";
 import { Metadata } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://priyaescortservices.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
-  description: "Terms and conditions of service, client guidelines, and legal terms for Priya Escort Services in Hyderabad.",
+  description: "Terms and conditions of service, client guidelines, and legal terms for Riya Escort Services in Hyderabad.",
   alternates: {
     canonical: `${siteUrl}/terms-conditions`,
   },
   openGraph: {
-    title: "Terms & Conditions | Priya Escort Services",
-    description: "Terms and conditions of service, client guidelines, and legal terms for Priya Escort Services in Hyderabad.",
+    title: "Terms & Conditions | Riya Escort Services",
+    description: "Terms and conditions of service, client guidelines, and legal terms for Riya Escort Services in Hyderabad.",
     url: `${siteUrl}/terms-conditions`,
     siteName: "cal girl hyderabad",
     locale: "en_IN",
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Terms & Conditions | Priya Escort Services",
-    description: "Terms and conditions of service for Priya Escort Services.",
+    title: "Terms & Conditions | Riya Escort Services",
+    description: "Terms and conditions of service for Riya Escort Services.",
   },
 };
 
